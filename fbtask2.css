@@ -1,0 +1,26 @@
+*{margin:0px;
+    padding:0px;}
+    .header{height:77px; background-color: #3b5998; position:relative;}
+    h3{color:white; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size:46px;
+        margin-left:79px; padding-top:18px;}
+    .login{color:white; position:absolute; top:10px; right:30px;}
+    #l2{position:absolute; left:179px;}
+    #p1{ color:rgb(202, 202, 202);position:absolute; left:165px; top:30px; font-size: 14.5px;}
+    #p1:hover{text-decoration: underline;}
+    button{padding:3px; background-color: #4866a5; color:white; border:2px solid white;}
+
+.left{margin-left:79px; margin-top:35px;}
+#p2{font-size:20px;}
+.fbbody{position:relative;}
+.right{position:absolute; top:-23px; right:290px;}
+p{margin-bottom:12px; margin-top: 15px;}
+ .right input[type="text"]{height:29px;width: 160px; padding-left:5px;}
+ .right input[type="value"]{height:29px;width: 363px; margin-top:10px; padding-left:5px;}
+ .right input[type="password"]{height:29px;width: 363px; margin-top:10px; padding-left:5px;}
+ section{margin-top:-22px;}
+ .btn{color:white; background-color: #45a049; padding: 9px 51px 10px 50px;
+   border-radius: 12px;
+   font-size: 14px;
+}
+.btn:hover{background-color: #2ecc71;}
+select{margin-right:5px; background-color: gainsboro;}

@@ -1,0 +1,41 @@
+.header{background-color:#3b5998; height:65px; position:relative;}
+.logo{font-family: Arial, Helvetica, sans-serif; font-weight: 400px;  display:inline; font-size: 36px; color:white; position:relative; top:8px; left:20px;}
+.logform{position: absolute; top:30px; right:10px;}
+ #l1,#l2{position:absolute; top:-18px; color:white;} 
+button{ background-color: #4065b4; color:white;}
+body{background: linear-gradient(to bottom, rgb(241, 233, 233),rgb(199, 199, 230));}
+.left{width:50%; float:left;}
+#left-p{font-size: 21px; color:black;}
+img{height:319px; width:655px;}
+#left-p{font-weight:bold; margin-top:28px;}
+.right{width:50%; float:left; margin-top:11px;}
+#right-p{font-size:19px;}
+#day{margin-left:-84px;}
+.anc{color:#3a66c5;}
+.anc:hover{text-decoration:underline; }
+.btn{ font-size:14px; color:white; background-color:rgb(28, 211, 28); padding:9px 18px 9px 18px;}
+#fbbody{height:557px;}
+#ft1{width:50%; float:left;}
+#ft2{width:50%; float:left;}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#fbbody {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #e6e6fa;}
+    footer {
+        background-color: #f1f1f1;
+        padding-right: 10px;
+        font-size: 16px;
+        color: #666;        
+        } 
+    .btn:hover{background-color:rgb(4, 73, 4)}
+    

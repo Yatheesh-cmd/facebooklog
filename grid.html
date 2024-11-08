@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{background-color: rgb(231, 15, 11);
+                 display:grid;
+                  grid-template-columns: auto auto auto;  
+                 grid-template-rows: 200px 200px 200px;
+                 gap: 10px 20px;
+                 /* -content: space-evenly;
+                 align-content: space-around; */
+                 height:100vh;
+        }
+        .class1{background-color: rgb(255, 0, 204);
+             /* height:250px;
+            width:250px; */
+            border:2px solid white
+        }
+        #i8{
+            grid-column-start:2;
+            grid-column-end:4;
+        }
+        #i4{grid-row-start:2;
+            grid-row-end:4}
+        #i5{
+            /* grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4; */
+            grid-area:2/3/4/4;
+
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class1" id="i1">1</div>
+        <div class="class1" id="i2">2</div>
+        <div class="class1" id="i3">3</div>
+        <div class="class1" id="i4">4</div>
+        <div class="class1" id="i5">5</div>
+        <div class="class1" id="i6">6</div>
+        <div class="class1" id="i7">7</div>
+        <div class="class1" id="i8">8</div>
+    </div>
+<a href="./grid.html" download="./grid.html">ok</a>
+
+</body>
+</html>
